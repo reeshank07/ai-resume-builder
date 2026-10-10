@@ -1,0 +1,75 @@
+
+/* AI Resume Analysis Results */
+.analysis-results {
+  margin-top: 28px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  color: #20243a;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+}
+
+.analysis-results h2 {
+  margin-bottom: 16px;
+}
+
+.resume-filename {
+  color: #555b70;
+  overflow-wrap: anywhere;
+}
+
+/* Match Score */
+.score-card,
+.result-card {
+  margin-top: 16px;
+  padding: 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.score-card h3,
+.result-card h3 {
+  margin-bottom: 12px;
+}
+
+.match-score {
+  margin: 8px 0;
+  color: #6554e8;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+/* Score Progress Bar */
+.score-bar {
+  width: 100%;
+  height: 10px;
+  margin-top: 12px;
+  overflow: hidden;
+  background: #e9e7fb;
+  border-radius: 10px;
+}
+
+.score-bar-fill {
+  height: 100%;
+  background: #6554e8;
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+/* Skills, Strengths, and Suggestions */
+.result-card ul {
+  padding-left: 24px;
+}
+
+.result-card li {
+  margin: 8px 0;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+/* Upload Button Loading State */
+.analyze-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
